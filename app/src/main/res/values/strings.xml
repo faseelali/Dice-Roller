@@ -3,4 +3,5 @@
     <string name="roll">Roll</string>
     <string name="dice_1_rolled">Dice 1 Rolled :</string>
     <string name="dice_2_rolled">Dice 2 Rolled :</string>
+    <string name="todo">TODO</string>
 </resources>

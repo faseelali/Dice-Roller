@@ -3,7 +3,7 @@ package com.example.diceroller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
+//import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 /**
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         //Find the button in the layout
         val rollButton: Button = findViewById(R.id.button)
 
-        //Set a click listener to roll the dice the Dice when Roll Button is clicked
+        //Set a click listener to roll the dice when Roll Button is clicked
         rollButton.setOnClickListener { rollDice() }
 
         rollDice()
